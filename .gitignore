@@ -13,3 +13,7 @@ wheels/
 # Virtual environments
 .venv
 .ENV
+**/*.env
+.env.*
+!.env.example
+temp.py

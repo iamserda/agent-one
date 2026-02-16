@@ -10,7 +10,7 @@ A crude, local-first take on Claude Code, wired into Google’s Gemini API for c
 ## Getting started
 1) Install Python 3.12+ and create a virtualenv.
 2) Add your Gemini key to `.env`:
-    - `GOOGLE_API_KEY=your-key-here`
+    - `GEMINI_API_KEY=your-google-gemini-generated-api-key`
 
 3) Install deps (uses `uv`; swap for pip if you prefer):
     - `uv sync`
@@ -20,4 +20,3 @@ A crude, local-first take on Claude Code, wired into Google’s Gemini API for c
 - Teach the agent to read/write files and summarize diffs.
 - Add prompt presets for “explain”, “review”, “refactor”.
 - Wire in tests around the Gemini client and prompt formatting.
-
