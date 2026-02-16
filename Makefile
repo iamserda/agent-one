@@ -25,7 +25,7 @@ fmt format:
 test-basic:
 	uv run test_get_files_info.py
 make test:
-	uv run functions/tests.py
+	uv run pytest -q
 
 precommit: lint fmt test
 	@echo "✅ ready to commit!"
